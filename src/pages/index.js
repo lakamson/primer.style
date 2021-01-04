@@ -22,7 +22,7 @@ export default function Index() {
             Everything in one system
           </Heading>
           <Text as="p" textAlign="center" mb={8}>
-            Check out our most popular tools to use in your next project:
+            Check out our most popular tools to use in your next project
           </Text>
           <Flex flexWrap="wrap" mr={[0, 0, -gutter]}>
             <Promo title="CSS framework" image={CSSImage} href="/css">
@@ -31,7 +31,7 @@ export default function Index() {
             <Promo title="React components" image={ComponentsImage} href="/components">
               Presentational UI components with encapsulated styles and constraint-based theme props.
             </Promo>
-            <Promo title="Octicons" image={OcticonsImage} href="https://octicons.github.com">
+            <Promo title="Octicons" image={OcticonsImage} href="/octicons">
               Your project. GitHub’s icons. Available in Ruby and JavaScript implementations.
             </Promo>
             <Promo title="Presentations" image={PresentationsImage} href="/presentations">
